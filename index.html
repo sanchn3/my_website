@@ -1,0 +1,182 @@
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+        <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+            href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" />
+
+        <title>Stitch Design</title>
+        <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    </head>
+
+    <body>
+        <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+            style='font-family: Manrope, "Noto Sans", sans-serif;'>
+            <div class="layout-container flex h-full grow flex-col">
+                <header
+                    class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
+                    <div class="flex items-center gap-4 text-[#111418]">
+                        <div class="size-4">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_6_319)">
+                                    <path
+                                        d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                                        fill="currentColor"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6_319">
+                                        <rect width="48" height="48" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h2 class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">Project Portfolio</h2>
+                    </div>
+                    <div class="flex flex-1 justify-end gap-8">
+                        <div class="flex items-center gap-9">
+                            <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Who I Am</a>
+                            <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Hobbies</a>
+                            <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Contact</a>
+                        </div>
+                        <button
+                            class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f5] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                            <div class="text-[#111418]" data-icon="List" data-size="20px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                            style='background-image: url("images/Profile_Picture.jpg");'></div>
+                    </div>
+                </header>
+                <div class="px-40 flex flex-1 justify-center py-5">
+                    <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                        <div class="flex p-4 @container">
+                            <div class="flex w-full flex-col gap-4 items-center">
+                                <div class="flex gap-4 flex-col items-center">
+                                    <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                                        style='background-image: url("images/Profile_Picture.jpg");'>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-center justify-center">
+                                        <p
+                                            class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">
+                                            Nicholas Sanchez</p>
+                                        <p class="text-[#60758a] text-base font-normal leading-normal text-center">
+                                            Data Engineer</p>
+                                        <p class="text-[#60758a] text-base font-normal leading-normal text-center">
+                                            Texas, USA
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2
+                            class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                            Who I Am</h2>
+                        <p class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                            I find satisfaction in uncovering patterns within datasets. My journey into data science
+                            began during my mechanical engineering degree, where I discovered the efficiency of
+                            problem-solving through programming during computer science courses. This realization
+                            ignited my passion for data science. Subsequently, during my master's program, I developed
+                            ETL processes and code to analyze COVID hospitalizations spanning from 2019 to 2023.
+                            My expertise expanded further when I crafted an application capable of extracting data from
+                            APIs and leveraging statistical attributes such as Poisson's ratio and normal distribution
+                            to predict outcomes in professional soccer matches. Through Python programming, I aimed to
+                            gain a competitive edge against corporate odds setters in the realm of sports betting.
+                            Presently, I serve as a data engineer for SDG, engaged in a project collaborating with
+                            Roche. This project focuses on building a database in Snowflake using the AWS S3
+                            infrastructure to finally move data to a tableau dashboard. Being bilingual and having a
+                            penchant for global exploration, I aspire to secure an international role. In doing so, I
+                            aim to not only contribute my expertise as a data scientist but also infuse projects with my
+                            diverse experiences and global perspectives.
+
+                        </p>
+                        <h2
+                            class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                            Hobbies</h2>
+                        <p class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                            Outside of work, I love embracing new experiences and staying active. Whether it's hanging
+                            out with friends, trying new activities, or playing tennis, soccer, and padel,
+                            I'm always looking for ways to connect and move. I'm also passionate about exploring the
+                            world, having already visited 17 countries with many more on my list! Taking classes
+                            for new things is another joy, as it constantly reminds me that there's so much more to life
+                            beyond a screen. These hobbies are my perfect way to de-stress and recharge.
+                        </p>
+                        <h2
+                            class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                            Contact</h2>
+                        <p class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                            I'm always open to new opportunities and collaborations. Feel free to reach out to me
+                            through the links below or send me an email at sanchez.nicholas160789@gmail.com.
+                        </p>
+                        <div class="@container">
+                            <div class="gap-2 px-4 flex flex-wrap justify-start">
+                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                    <div class="rounded-full bg-[#f0f2f5] p-2.5">
+                                        <div class="text-[#111418]" data-icon="InstagramLogo" data-size="20px"
+                                            data-weight="regular">
+                                                    <a href="https://www.instagram.com/nick_sandwhichez?igsh=MXhmZGdmNG5paGc3Zw%3D%3D&utm_source=qr" target="_blank"
+                                                    class="text-[#111418] inline-flex items-center justify-center"
+                                                    data-icon="LinkedinLogo" data-size="20px" data-weight="regular"
+                                                    aria-label="Visit Nicholas Sanchez's Instagram Profile">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+                                                fill="currentColor" viewBox="0 0 256 256">
+                                                <path
+                                                    d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-[#111418] text-sm font-medium leading-normal">Instagram</p>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                    <div class="rounded-full bg-[#f0f2f5] p-2.5">
+                                        <div class="text-[#111418]" data-icon="FacebookLogo" data-size="20px"
+                                            data-weight="regular" >
+                                                    <a href="https://www.facebook.com/nicholas.sanchez.54/" target="_blank"
+                                                    class="text-[#111418] inline-flex items-center justify-center"
+                                                    data-icon="FacebookLogo" data-size="20px" data-weight="regular"
+                                                    aria-label="Visit Nicholas Sanchez's Facebook Profile">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+                                                fill="currentColor" viewBox="0 0 256 256">
+                                                <path
+                                                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-[#111418] text-sm font-medium leading-normal">Facebook</p>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                    <div class="rounded-full bg-[#f0f2f5] p-2.5">
+                                            <div class="text-[#111418]" data-icon="LinkedinLogo" data-size="20px" 
+                                                data-weight="regular">
+                                                <a href="https://www.linkedin.com/in/sanchez-nicholas/" target="_blank"
+                                                    class="text-[#111418] inline-flex items-center justify-center"
+                                                    data-icon="LinkedinLogo" data-size="20px" data-weight="regular"
+                                                    aria-label="Visit Nicholas Sanchez's LinkedIn Profile">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+                                                    fill="currentColor" viewBox="0 0 256 256">
+                                                    <path
+                                                        d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                    </div>
+                                    <p class="text-[#111418] text-sm font-medium leading-normal">LinkedIn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
