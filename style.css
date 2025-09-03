@@ -2,6 +2,16 @@
             font-size: 16px;
         }
 
+        .subtitle-text {
+            color: #60758a;
+            font-size: 1rem;        /* text-base */
+            font-weight: 400;       /* font-normal */
+            line-height: 1.5;    /* leading-normal */
+            text-align: center;
+        }
+
+
+
         .paragraph-text {
             color: #111418;
             font-size: 1rem;
@@ -59,6 +69,19 @@
         .mobile-dropdown-menu {
             display: none;
         }
+
+        .menu-link {
+            display: block;
+            padding: 1rem;                /* p-4 */
+            color: #111418;
+            font-size: 1.125rem;          /* text-lg */
+            font-weight: bold;
+            line-height: 1.25;            /* leading-tight */
+            letter-spacing: -0.015em;     /* tracking-[-0.015em] */
+            border-bottom: 1px solid #f0f2f5;
+            border-style: solid;
+        }
+
 
         /* Styles for screens smaller than 769px (mobile) */
         @media (max-width: 768px) {
