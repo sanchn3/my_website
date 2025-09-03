@@ -2,6 +2,52 @@
             font-size: 16px;
         }
 
+        .paragraph-text {
+            color: #111418;
+            font-size: 1rem;
+            /* base */
+            font-weight: 400;
+            /* normal */
+            line-height: 1.5;
+            /* 1.5 spacing */
+            padding-bottom: 0.75rem;
+            /* pb-3 */
+            padding-top: 0.25rem;
+            /* pt-1 */
+            padding-left: 1rem;
+            /* px-4 */
+            padding-right: 1rem;
+            /* px-4 */
+            text-align: justify;
+            /* justify the text */
+        }
+
+        .image-intro-container {
+            padding-left: 10rem;
+            /* px-40 */
+            padding-right: 10rem;
+            /* px-40 */
+            display: flex;
+            flex: 1 1 0%;
+            justify-content: center;
+            padding-top: 1.25rem;
+            /* py-5 */
+            padding-bottom: 1.25rem;
+            /* py-5 */
+        }
+
+        .bottom-buttons,
+        .header-buttons {
+            color: #111418;
+            font-size: 0.875rem;
+            /* text-sm */
+            font-weight: 500;
+            /* font-medium */
+            line-height: normal;
+            /* leading-normal */
+        }
+
+
         .header-nav {
             display: none;
         }
@@ -16,6 +62,7 @@
 
         /* Styles for screens smaller than 769px (mobile) */
         @media (max-width: 768px) {
+
 
             .header-links,
             .header-profile {
