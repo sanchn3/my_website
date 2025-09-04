@@ -1,0 +1,54 @@
+        body {
+            font-size: 16px;
+        }
+
+        .header-nav {
+            display: none;
+        }
+
+        .header-menu-button {
+            display: block;
+        }
+
+        .mobile-dropdown-menu {
+            display: none;
+        }
+
+        /* Styles for screens smaller than 769px (mobile) */
+        @media (max-width: 768px) {
+
+            .header-links,
+            .header-profile {
+                display: none;
+            }
+
+            .hamburger-button {
+                display: block;
+            }
+
+            .who-i-am-heading {
+                text-align: center;
+            }
+
+            .main-content-padding {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .mobile-dropdown-menu.active {
+                display: block;
+            }
+        }
+
+        /* Styles for screens larger than 768px (desktop) */
+        @media (min-width: 769px) {
+
+            .header-links,
+            .header-profile {
+                display: flex;
+            }
+
+            .hamburger-button {
+                display: none;
+            }
+        }
