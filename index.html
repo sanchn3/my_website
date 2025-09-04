@@ -5,17 +5,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
         <link rel="stylesheet" href="style.css">
         <title>Nick Sanchez</title>
-        <link rel="icon" type="image/jpg" href="images\Gemini_Generated_Image_jtdflejtdflejtdf.jpg" style="border-radius: 50%;"/>
+        <link rel="icon" type="image/jpg" href="images\Gemini_Generated_Image_jtdflejtdflejtdf.jpg"
+            style="border-radius: 50%;" />
         <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     </head>
 
     <body>
         <link rel="stylesheet" href="style.css">
-        <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
-            style='font-family: Manrope, "Noto Sans", sans-serif;'>
+        <div class="main-page-container" style='font-family: Manrope, "Noto Sans", sans-serif;'>
             <div class="layout-container flex h-full grow flex-col">
-                <header
-                    class="header-main">
+                <header class="header-main">
                     <div class="flex-center">
                         <div class="size-12">
                             <a href="#">
@@ -36,8 +35,7 @@
                         <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
                             style='background-image: url("images/Profile_Picture.jpg");'></div>
                     </div>
-                    <button id="hamburger-button"
-                        class="hamburger-button flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f5] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                    <button id="hamburger-button" class="hamburger-button">
                         <div class="text-[#111418]" data-icon="List" data-size="20px" data-weight="regular">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
                                 viewBox="0 0 256 256">
@@ -57,7 +55,7 @@
                     <a class="menu-link" href="#contact">Contact</a>
                 </div>
                 <div class="image-intro-container">
-                    <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="intro-layout-content-container">
                         <div class="flex p-4 @container">
                             <div class="flex w-full flex-col gap-4 items-center">
                                 <div class="flex gap-4 flex-col items-center">
@@ -99,9 +97,9 @@
                             Hobbies</h2>
                         <p class="paragraph-text">
                             Outside of work, I love embracing new experiences and staying active. Whether it's hanging
-                            out with friends, trying new activities, or playing tennis, soccer, and padel,
+                            out with friends, trying new activities, or playing tennis, soccer, or padel,
                             I'm always looking for ways to connect and move. I'm also passionate about exploring the
-                            world, having already visited 17 countries with many more on my list! Taking classes
+                            world, having already visited 18 countries with many more on my list! Taking classes
                             for new things is another joy, as it constantly reminds me that there's so much more to life
                             beyond a screen. These hobbies are my perfect way to de-stress and recharge.
                         </p>
@@ -111,9 +109,8 @@
                             Want to learn more about my skills and experience? You can download my resume here to get
                             all the details!
                         </p>
-                        <div class="flex justify-start">
-                            <a href="Nicholas_Sanchez_Resume_2025.pdf" target="_blank"
-                                class="download-resume-button">
+                        <div class="flex-row-start">
+                            <a href="Nicholas_Sanchez_Resume_2025.pdf" target="_blank" class="download-resume-button">
                                 Download Resume
                             </a>
                         </div>
@@ -125,7 +122,7 @@
                         </p>
                         <div class="@container">
                             <div class="gap-2 px-4 flex flex-wrap justify-start">
-                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                <div class="contact-card">
                                     <div class="contact-icons">
                                         <div class="text-[#111418]" data-icon="InstagramLogo" data-size="20px"
                                             data-weight="regular">
@@ -145,7 +142,7 @@
                                     </div>
                                     <p class="bottom-buttons">Instagram</p>
                                 </div>
-                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                <div class="contact-card">
                                     <div class="contact-icons">
                                         <div class="text-[#111418]" data-icon="FacebookLogo" data-size="20px"
                                             data-weight="regular">
@@ -164,7 +161,7 @@
                                     </div>
                                     <p class="bottom-buttons">Facebook</p>
                                 </div>
-                                <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+                                <div class="contact-card">
                                     <div class="contact-icons">
                                         <div class="text-[#111418]" data-icon="LinkedinLogo" data-size="20px"
                                             data-weight="regular">

@@ -2,6 +2,18 @@
             font-size: 16px;
         }
 
+
+        .main-page-container {
+            position: relative;
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            flex-direction: column;
+            background-color: #fff;
+            overflow-x: hidden;
+            /* If you need group/design-root styles, add them here */
+        }
+
         .flex-center {
             display: flex;
             align-items: center;
@@ -83,6 +95,28 @@
             /* leading-normal */
         }
 
+        .hamburger-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 480px;
+            min-width: 0;
+            height: 2.5rem;                /* h-10 */
+            gap: 0.5rem;                   /* gap-2 */
+            padding-left: 0.625rem;        /* px-2.5 */
+            padding-right: 0.625rem;       /* px-2.5 */
+            overflow: hidden;
+            border-radius: 0.5rem;         /* rounded-lg */
+            background-color: #f0f2f5;
+            color: #111418;
+            font-size: 0.875rem;           /* text-sm */
+            font-weight: bold;
+            line-height: normal;
+            letter-spacing: 0.015em;
+            cursor: pointer;
+            border: none;
+        }
+
         .header-main {
             display: flex;
             align-items: center;
@@ -107,6 +141,13 @@
 
         .mobile-dropdown-menu {
             display: none;
+        }
+
+        .intro-layout-content-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 960px;
+            flex: 1 1 0%;
         }
 
         .menu-link {
@@ -136,6 +177,23 @@
             padding-top: 0.5rem;        /* py-2 */
             padding-bottom: 0.5rem;     /* py-2 */
             border-radius: 0.5rem;      /* rounded-lg */
+        }
+
+        .flex-row-start {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .contact-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;           /* gap-2 */
+            background-color: #fff;
+            padding-top: 0.625rem; /* py-2.5 */
+            padding-bottom: 0.625rem;
+            text-align: center;
+            width: 5rem;           /* w-20 */
         }
 
         .contact-icons {
